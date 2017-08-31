@@ -13,7 +13,6 @@ export default class Portfolio extends Component {
       <div className="App one">
           <h1>Kelly's Portfolio</h1>
           <p>I created this app using React</p>
-
       </div>
     );
   }

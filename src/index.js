@@ -13,6 +13,8 @@ import BaseLayout from './Components/BaseLayout.js';
 import Home from './Components/Home.js';
 import About from './Components/About.js';
 import Portfolio from './Components/Portfolio.js';
+import References from './Components/References.js';
+import Contact from './Components/Contact.js';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,6 +23,8 @@ ReactDOM.render(
         <Route path="/Home" component={Home}/>
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio}/>
+        <Route path="/References" component={References}/>
+        <Route path="/Contact" component={Contact}/>
       </Switch>
     </BaseLayout>
   </BrowserRouter>

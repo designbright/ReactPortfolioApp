@@ -16,6 +16,11 @@ export default class BaseLayout extends Component {
             <li><button className="btn"><Link to="/About">About</Link></button></li>
 
             <li><button className="btn"><Link to="/Portfolio">Portfolio</Link></button></li>
+
+            <li><button className="btn"><Link to="/References">References</Link></button></li>
+
+            <li><button className="btn"><Link to="/Contact">Contact</Link></button></li>
+
           </ul>
         </div>
           {this.props.children}
