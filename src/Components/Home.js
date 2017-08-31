@@ -13,7 +13,6 @@ export default class Home extends Component {
     return (
 
       <div className="App one">
-        <BaseLayout/>
           <h1>Home Page</h1>
           <p>Coming soon...</p>
           <p>More styling</p>
