@@ -224,23 +224,10 @@ a{
   margin-left: 3%;
 }
 
-#contentImage{
-  width: 55%;
-  margin-right: 3%;
-  border: 1px dashed black;
+#quickSneakersCode{
+  text-decoration: underline;
 }
 
-#personalLogo{
-  height: 200px;
-  width: 350px;
-  border: 1px dashed black;
-}
-
-#contentRow2 {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
 
 /*END PORTFOLIO PAGE ===========*/
 

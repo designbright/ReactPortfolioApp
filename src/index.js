@@ -12,6 +12,10 @@ import BaseLayout from './Components/BaseLayout.js';
 import Home from './Components/Home.js';
 import About from './Components/About.js';
 import Portfolio from './Components/Portfolio.js';
+import QuickSneakers from './Components/QuickSneakers.js';
+import IntranetRedesign from './Components/IntranetRedesign.js';
+
+
 import Testimonials from './Components/Testimonials.js';
 import Contact from './Components/Contact.js';
 
@@ -22,6 +26,9 @@ ReactDOM.render(
         <Route path="/Home" component={Home}/>
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio}/>
+        <Route path="/QuickSneakers" component={QuickSneakers}/>
+        <Route path="/IntranetRedesign" component={IntranetRedesign}/>
+
         <Route path="/Testimonials" component={Testimonials}/>
         <Route path="/Contact" component={Contact}/>
       </Switch>

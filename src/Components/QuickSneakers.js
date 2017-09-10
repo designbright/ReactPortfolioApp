@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
-import personalLogo from "../personalLogo.PNG";
 
 export default class Portfolio extends Component {
   constructor(props){
@@ -14,7 +13,7 @@ export default class Portfolio extends Component {
     <div id="portfolioPage">
 
     <div id="testimonialHeader">
-      <h1 id="portfolioTop">Portfolio</h1>
+      <h1 id="portfolioTop">Quick Sneakers</h1>
     </div>
 
     <section id="portfolioWrapper">
@@ -22,7 +21,7 @@ export default class Portfolio extends Component {
           <h3 id="contentHeader">OVERVIEW</h3>
           <p>This was my first website that I completed in May 2017 as part of The Iron Yard's Web Development Program.
 
-          Belwo is the original mockup image that I was provided with prior to starting the project. I was also provided with the images that needed to be included.
+          Below is the original mockup image that I was provided with prior to starting the project. I was also provided with the images that needed to be included.
 
           The project required that I use HTML elements such as sections, divs, ID's, classes, containers, buttons, navigation, and footers.
 
@@ -49,6 +48,12 @@ export default class Portfolio extends Component {
         </div>
       </div>
 
+      <div id="pictureRow">
+          <p id="blue">Iam a blue square</p>
+         <p id="red">I am a red square</p>
+         <p id= "green">I am a greeen square </p>
+      </div>
+
       <div id="contentRow1">
         <div id="contentText">
           <h3 id="contentHeader">CHALLENGES AND LESSONS LEARNED</h3>
@@ -58,15 +63,8 @@ export default class Portfolio extends Component {
         </div>
       </div>
 
-      <div id="pictureRow">
-          <p id="blue">Iam a blue square</p>
-         <p id="red">I am a red square</p>
-         <p id= "green">I am a greeen square </p>
-      </div>
+
     </section>
-
-
-
 
   </div>
     );

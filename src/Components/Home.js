@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
+import MojoHome from "../MojoSite.png";
+
+
 import QuickSneakersWireframe from "../QuickSneakersWireframe.jpg";
 
 
@@ -43,7 +46,7 @@ export default class Home extends Component {
       <hr/>
       <div id="showcaseProjects">
 
-        <a className="portfolioLink" href="/Portfolio">
+      <a className="portfolioLink" href="/QuickSneakers">
         <div id="tile">
           <img id="QSwireframe"  alt="QSwireframe" src={QuickSneakersWireframe} height ="150" width= "200"/>
 
@@ -53,21 +56,24 @@ export default class Home extends Component {
         </div>
         </a>
 
-        <a className="portfolioLink" href="/Portfolio">
+
+        <a className="portfolioLink" href="/IntranetRedesign">
         <div id="tile">
-          <h4>Quick Sneakers</h4>
-          <div id="tileDescription">
-          <p>This is where the project description will go. Need to add goal of project and languages used to create it</p>
-          </div>
+          <img id="MojoHome"  alt="PortalHomePage" src={MojoHome} height ="250" width= "200"/>
+
+            <div id="tileDescription">
+            <p>This is where the project description will go. Need to add goal of project and languages used to create it</p>
+            </div>
         </div>
         </a>
 
-        <a className="portfolioLink" href="/Portfolio">
+        <a className="portfolioLink" href="/PersonalBranding">
         <div id="tile">
-          <h4>JavaScript Calculator</h4>
-          <div id="tileDescription">
-          <p>This is where the project description will go. Need to add goal of project and languages used to create it</p>
-          </div>
+          <img id="personalBranding"  alt="BrandPineapples" src={MojoHome} height ="250" width= "200"/>
+
+            <div id="tileDescription">
+            <p>This is where the project description will go. Need to add goal of project and languages used to create it</p>
+            </div>
         </div>
         </a>
 
