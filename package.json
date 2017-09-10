@@ -2,7 +2,6 @@
   "name": "portfolioapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://designbright.github.io/portfolioapp"
 
   "dependencies": {
     "react": "^15.6.1",
