@@ -1,3 +1,10 @@
+# ReactPortfolioApp
+
+TO DO:
+Finalize and code individ portfolio layout
+Finish Contact Page
+Add images to footer
+
 Getting Started  
 
 To get started you will need to use create-react-app to quickly scaffold a project. You should migrate your components into a components folder in the src directory and the styles into a styles folder in the src directory. Link up all pages to make sure they working and test using npm run start in the console, use Ctrl+c to exit.
@@ -24,4 +31,3 @@ The final project should be a relatively attractive mock portfolio website. The 
 Hints  
 
 Remember that you can create a component that receives other components using {props.children} or {this.props.children} depending upon it being a class based component or a functional component.
-# ReactPortfolioApp

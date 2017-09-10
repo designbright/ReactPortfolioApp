@@ -5,24 +5,20 @@ export default class BaseLayout extends Component {
   constructor(){
     super()
   }
-
   render() {
     return (
-      <div className="baseLayout">
-        <div className = "navBar">
+      <div className="navBarContainer">
+
+        <section id= "navBar">
           <ul>
-            <li><button className="btn"><Link to="/Home">Home</Link></button></li>
-
-            <li><button className="btn"><Link to="/About">About</Link></button></li>
-
-            <li><button className="btn"><Link to="/Portfolio">Portfolio</Link></button></li>
-
-            <li><button className="btn"><Link to="/References">References</Link></button></li>
-
-            <li><button className="btn"><Link to="/Contact">Contact</Link></button></li>
-
+            <li className="navLink"><Link to="/Home">HOME</Link></li>
+            <li className="navLink"><Link to="/About">ABOUT</Link></li>
+            <li className="navLink"><Link to="/Portfolio">PORTFOLIO</Link></li>
+            <li className="navLink"><Link to="/Testimonials">TESTIMONIALS</Link></li>
+            <li className="navLink"><Link to="/Contact">CONTACT</Link></li>
           </ul>
-        </div>
+        </section>
+
           {this.props.children}
       </div>
     );

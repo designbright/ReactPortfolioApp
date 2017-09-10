@@ -1,20 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h4, p{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/*NAVIGATION ============*/
 ul{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
 
-h1, h4, p{
-  text-align: center;
-}
-
-
-button{
-  background: lime;
-  color: black;
-  border-radius: 5px;
+li{
+  font-size: 25px;
 }
 
 a{
+  font-family: 'Quicksand', sans-serif;
   text-decoration: none;
+  color: black;
 }
+/*END NAVIGATION ==========*/
+
+#home{
+  background-image: linear-gradient(-90deg, #0F7BFF, #FF0FCB);
+}
+
+/*HEADER ============*/
+#headerName{
+  font-family: 'bromello', 'Quicksand', 'sans-serif';
+  font-size: 150px;
+  color: white;
+  padding-top: 0.8em;
+  padding-bottom: 0;
+  margin-top: 5px;
+}
+
+#headerTitle{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-top: -3em;
+  padding-bottom: 2.5em;
+}
+/*END HEADER =============*/
+
+/*HOME - ABOUT SECTION =========*/
+#aboutSection{
+  padding: 2em 5em;
+  margin-top: -45px;
+}
+
+.aboutMeText{
+  text-align: left;
+}
+
+#readMyBlog{
+  color: blue;
+}
+/*END HOME- ABOUT SECTION=========*/
+
+
+/*HOME - PORTFOLIO SECTION =========*/
+#portfolioSection{
+  padding: 2em 5em;
+  /*background: #FF0FCB;*/
+  height: 35em;
+}
+
+#portfolioH1{
+  color: black;
+}
+
+#showcaseProjects{
+  display: flex;
+  justify-content: space-around;
+}
+
+#tile{
+  height: 400px;
+  width: 450px;
+  border: white 1px solid;
+  margin: 15px;*
+  padding: 6px;
+  background: white;
+}
+
+#QSwireframe{
+  margin: 0 20px;
+  height: 300px;
+  width: 400px;
+}
+
+
+
+/*END HOME - PORTFOLIO SECTION ==========*/
+
+/*START HOME - FOOTER =======*/
+  #footer{
+    height: 3em;
+  }
+
+  #copyright{
+    margin-top: -25px;
+    margin-bottom: 25px;
+  }
+
+  #linkedinLogo{
+    height: 100px;
+    width: 150px;
+  }
+
+  #instagramLogo{
+    height: 110px;
+    width: 155px;
+  }
+
+  #githubLogo{
+    height: 100px;
+    width: 150px;
+  }
+
+  #gmailLogo{
+    height: 100px;
+    width: 150px;
+  }
+
+
+/*END HOME - FOOTER =======*/
+
+/*=============END HOME==============================*/
+/*==================================================*/
+
+
+
+/*==============START ROUTING====================*/
+/*START ABOUT PAGE =======*/
+#aboutHeader{
+  height: 14em;
+  background-image: linear-gradient(-90deg, #F6FF00, #FF00A1);
+}
+
+#journeyH2{
+  margin-left: 25px;
+}
+
+#aboutH1 {
+  font-family: 'bromello', 'Quicksand', 'sans-serif';
+  font-size: 80px;
+  color: white;
+  padding: 1em 0.3em;
+  margin-top: 1px;
+  text-align: left;
+}
+
+#aboutMe p{
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#downloadResume a{
+  color: orange;
+}
+
+/*END ABOUT PAGE =======*/
+
+
+/*START PORTFOLIO PAGE ========*/
+#portfolioHeader{
+  height: 14em;
+  background-image: linear-gradient(-90deg, #00FFC8, #7300FF);
+}
+
+#portfolioTop {
+  font-family: 'bromello', 'Quicksand', 'sans-serif';
+  font-size: 80px;
+  color: white;
+  padding: 1em 0.5em;
+  margin-top: 1px;
+  text-align: left;
+}
+
+#pictureRow{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+#red{
+  height: 200px;
+  width: 200px;
+  background: red;
+  margin-right: 25px;
+}
+
+#green{
+  height: 200px;
+  width: 200px;
+  background: green;
+}
+
+#blue{
+  height: 200px;
+  width: 200px;
+  background: blue;
+  margin-right: 25px;
+}
+
+#contentHeader{
+  margin-left: 3%;
+}
+
+#contentText p{
+  text-align: left;
+  margin-left: 3%;
+}
+
+#contentImage{
+  width: 55%;
+  margin-right: 3%;
+  border: 1px dashed black;
+}
+
+#personalLogo{
+  height: 200px;
+  width: 350px;
+  border: 1px dashed black;
+}
+
+#contentRow2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/*END PORTFOLIO PAGE ===========*/
+
+/*START TESTIMONIAL SECTION ========*/
+ #testimonialHeader{
+   height: 14em;
+   background-image: linear-gradient(-90deg, #00FFC8, #7300FF);
+ }
+
+ #testimonialsH1 {
+   font-family: 'bromello', 'Quicksand', 'sans-serif';
+   font-size: 80px;
+   color: white;
+   padding: 1em 1em;
+   margin-top: 1px;
+   text-align: left;
+ }
+
+ #testimonialTiles{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 1em;
+ }
+
+ #testimonial{
+   height: 25em;
+   padding: 2em 5em;
+   font-size: 20px;
+   width: 33%;
+ }
+
+ #testimonial p {
+   text-align: left;
+ }
+/*END TESTIMONIAL SECTION ===============*/
