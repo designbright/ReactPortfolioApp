@@ -1,9 +1,13 @@
 # ReactPortfolioApp
 
 TO DO:
-Finalize and code individ portfolio layout
+
 Finish Contact Page
-Add images to footer
+Add link to PDF of Resume
+Add images to Home portfolio page
+  Add caption 
+Make more responsive for mobile
+
 
 Getting Started  
 
