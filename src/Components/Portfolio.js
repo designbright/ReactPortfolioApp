@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
         </div>
         <a className="portfolioLink" href="/IntranetRedesign">
           <div className="showcase">
-            <p id="blue">INTRANET REDESIGN Iam a blue square</p>
+            <p id="blue">INTRANET REDESIGN </p>
           </div>
         </a>
 

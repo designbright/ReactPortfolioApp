@@ -41,7 +41,7 @@ export default class About extends Component {
 
                 <p>I am a self-taught "creative-ist" pursuing my passion in technology and design.  I live by a simple mantra, "Design a life you love". I believe that anyone can design an authentic, fulfilling life through self-discovery and creative exploration.</p>
 
-                <p>My artistic style is bright, simple, and colorful. I am inspired by artists who color outside the lines. I dabble in mediums such as acrylics and watercolor. Doodles, line drawings, and sketches are especially awesome to me!</p>
+                <p>My artistic style is bright, simple, and colorful. I am inspired by artists who color outside the lines. I dabble in mediums such as acrylics and watercolor. Doodles, line drawings, and sketches ae especially awesome to me!</p>
 
                 <p>Prior to being a Developer, I was a student-athlete at the University of Kentucky and a member of the women's soccer team majoring in Kinesiology and Education. I graduated from the University of North Carolina at Chapel Hill with a degree in Exercise and Sport Science. At UNC, I  was a member of the women's rugby and rowing teams.</p>
 

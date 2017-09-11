@@ -30,7 +30,7 @@ export default class QuickSneakers extends Component {
           <p>The tools I used to complete this project were Google Chrome, Chrome Developer Tool - Inspect, Atom Text Editor, and GitHub.  </p>
         </div>
 
-        <p id="viewCodeLink"><a id="quickSneakersCode" href="https://github.com">View the Code on GitHub</a></p>
+        <p id="viewCodeLink"><a id="quickSneakersCode" target="_blank" href="https://github.com/designbright/Quick-Sneakers.git">View the Code on GitHub</a></p>
 
       <div id="pictureRow">
           <p id="blue">Iam a blue square</p>

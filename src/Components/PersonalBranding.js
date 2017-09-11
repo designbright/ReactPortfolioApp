@@ -2,6 +2,13 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
+import LogoDesigns from "../Images/PersonalBranding/logoDesigns.png";
+import Fonts from "../Images/PersonalBranding/Fonts.png";
+import Patterns from "../Images/PersonalBranding/patterns.png";
+import BrandBoard1 from "../Images/PersonalBranding/BrandBoard1.png";
+import BrandBoard2 from "../Images/PersonalBranding/BrandBoard2.png";
+
+
 
 export default class Portfolio extends Component {
   constructor(props){
@@ -19,39 +26,62 @@ export default class Portfolio extends Component {
     <section id="portfolioWrapper">
         <div id="contentText">
           <h3 id="contentHeader">OVERVIEW</h3>
-          <p>The goal of this project was to re-design an existing team intranet page to enhance the global new hire onboarding training program. The need for this project resulted from an increase in new hires being added to the Human Resources department at a rapidly growing open-source technology company.</p>
-​
-          <p>The company needed a globally scaleable solution in the form of an 'onboarding portal' via the existing company intranet. The company intranet, known to internal employees as "Mojo", is a product of Jive Software. Mojo is used as an internal resource for employees to collaborate and access information such as company announcements and projects.</p>
+          <p>The goal of this project was to learn more about the following topics: Create a personal brand that reflects my creative style, personality and values; Learn more about branding; Create a personal brand used to sell artwork; Self-discovery</p>
 
-          <p>Ultimately, the new hire onboarding portal that would serve as an internal toolkit to help new employees learn their job quicker and more efficiently. The portal would be a central place for all process documentation, team announcements, and training guides. </p>
+        <p>Design Bright is my personal brand and persona. Participating in my first craft fair was the catalyst to this design. I needed something to make my booth stand out and attract customers. My products consisted of colorful greeting cards and decorative watercolor and acrylic wall prints. I began researching everything I could about branding and started documenting my ideas. This allowed me to discover a lot about myself and how I wanted to introduce my talents and artistic personality to the world. My journey to creating the brand has been incredibly enlightening and has energized my soul.
+​       </p>
         </div>
-
-
-        <p id="viewCodeLink"><a id="quickSneakersCode" href="https://github.com">View the Code on GitHub</a></p>
-
-      <div id="pictureRow">
-        <p id="blue">Iam a blue square</p>
-        <p id="red">I am a red square</p>
-        <p id= "green">I am a greeen square </p>
-      </div>
 
       <div id="contentRow1">
 
         <div id="contentText">
-          <h3 id="contentHeader">THE DESIGN PROCESS</h3>
-          <p>Understanding the big picture was crucial to designing an outstanding team onboarding portal. I began researching the intranet for other teams who may have created similar portals and training toolkits. I also explored the organizational structure of the global Human Resources department. I began putting together a list of people who could be subject matter experts on my project team. </p>
-          <p>I started whiteboarding my ideas and sharing my designs with peers. Once all versions were approved, I started creating a test site in Mojo to explore all of the possible features and functionality.</p>
-          <p>The real test was to actually use the newly created site to train a new hire. The new hires would provide my project team with feedback on topics such as user experience, information architecture, and most importantly, the impact the site had on their ramp-up time to productivity. The overall feedback from new hires was positive. They appreciated having all the information they needed to know in one place. They also liked the breakdown of information in terms of WHAT they needed to know and WHEN.</p>
-
-          <p>Below is a snapshot of the final product. All of the links for role specific process documentation will take you to the team Google drive where updated documentation lives. </p>
-          <p></p>
+          <h3 id="contentHeader">THE LOGO DESIGN PROCESS</h3>
+          <p>I wanted my brand logo to reflect my love for bright colors and hand lettering. The personality needed to be fun, bold, and simple. The typography for Design Bright is a hand lettering font. </p>
+          <p> I created several different prototypes using different design tools such as pen and paper, Canva, iPad, and Wacom Tablet. I shared my ideas and designs with friends and family and gathered feedback on the design's strengths and improvement opportunities.</p>
         </div>
       </div>
 
+      <p id="logoDesignsContainer">
+        <img id="logoDesigns"  alt="logos" src={LogoDesigns} height ="300" width= "800"/>
+      </p>
+
+      <p id="fontsContainer">
+        <img id="fonts"  alt="logos" src={Fonts} height ="300" width= "800"/>
+      </p>
+
+
+      <div id="contentRow1">
+
+        <div id="contentText">
+          <h3 id="contentHeader">COLOR & PATTERN SELECTION</h3>
+          <p>The colors for Design Bright needed to reflect my personality -colorful, vibrant, and bold. When people ask me what my favorite color is, my response is always the same: I love all of them, especially glitter. I wanted to incorporate pinks, golds, blues, yellows, and blacks. I customized color pallettes using Adobe Color to find RGB and HEX codes​</p>
+
+          <p>I wanted the Design Bright patterns to reflect something you would find at a fashion boutique or funky art gallery. They needed to be abstract and colorful. I was inspired by textures such as acrylic paint and gold patterns</p>
+
+          <p>Tools used: iPad, Wacom Tablet, Pinterest</p>
+
+          <p id="patternsContainer">
+            <img id="patterns"  alt="patterns" src={Patterns} height ="300" width= "800"/>
+          </p>
+        </div>
+      </div>
+
+
       <div id="contentRow1">
         <div id="contentText">
-          <h3 id="contentHeader">CHALLENGES AND LESSONS LEARNED</h3>
-          <p>ADD CONTENT</p>
+          <h3 id="contentHeader">BRAND BOARDS - PUTTING IT ALL TOGETHER</h3>
+          <p>The final step in my branding design process was to compile all of my research, designs, and inspiration in order to communicate my vision is a clear, simple manner. Once I narrowed down the logos, color palettes, fonts, and pattern designs, I created brand boards to showcase the big picture. I used Canva to create my brand boards</p>
+
+          <p id="brandBoardContainer">
+            <img id="brandboard1"  alt="brandBoard" src={BrandBoard1} height ="700" width= "500"/>
+              <img id="brandboard2"  alt="brandBoard" src={BrandBoard2} height ="700" width= "500"/>
+          </p>
+
+          <p id="brandBoardContainer">
+
+          </p>
+
+
         </div>
       </div>
 

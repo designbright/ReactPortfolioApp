@@ -5,10 +5,14 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
-h1, h4, p{
+h1, h4{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: black;
+}
+
+p{
+  font-size: 20px;
 }
 
 /*NAVIGATION ============*/
@@ -37,10 +41,12 @@ a{
 /*HEADER ============*/
 #headerName{
   font-family: 'bromello', 'Quicksand', 'sans-serif';
-  font-size: 150px;
+  font-size: 140px;
   color: white;
-  padding-top: 0.8em;
+  padding-top: 1em;
   padding-bottom: 0;
+  display: flex;
+  justify-content: center;
   margin-top: 5px;
 }
 
@@ -50,6 +56,8 @@ a{
   font-size: 35px;
   margin-top: -3em;
   padding-bottom: 2.5em;
+  display: flex;
+  justify-content: center;
 }
 /*END HEADER =============*/
 
@@ -86,7 +94,7 @@ a{
   text-align: left;
   font-size: 20px;
   margin-left: 3em;
-  margin-right: 6em;
+  margin-right: 3em;
 }
 
 #aboutMe p{
@@ -98,16 +106,13 @@ a{
 #downloadResume a{
   color: orange;
 }
-
-
-
 /*END ABOUT PAGE =======*/
 
 
 /*START PORTFOLIO PAGE ========*/
 #portfolioHeader{
   height: 14em;
-  background-image: linear-gradient(-90deg, #00FFC8, #7300FF);
+  background-image: linear-gradient(-90deg, #F6FF00, #FF00A1);
 }
 
 #portfolioTop {
@@ -126,37 +131,74 @@ a{
 }
 
 #red{
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   background: red;
   margin-right: 25px;
 }
 
 #green{
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   background: green;
 }
 
 #blue{
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   background: blue;
   margin-right: 25px;
 }
 
 #contentHeader{
-  margin-left: 3%;
+  margin-left: 5em;
 }
 
 #contentText p{
   text-align: left;
-  margin-left: 3%;
+  margin-left: 5em;
+  margin-right: 5em;
 }
+
+#viewCodeLink{
+  text-align: center;
+}
+
+#mojoSiteContainer{
+  margin-left: 5em;
+}
+
+/*PERSONAL BRANDING ======*/
+#logoDesigns{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#fonts{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#brandBoardContainer{
+  display: flex;
+  margin-left: 5em;
+  margin-right: 5em;
+
+}
+
+
+/*END PERSONAL BRANDING ======*/
+
+
+/*QUICK SNEAKERS PROJECT ======*/
 
 #quickSneakersCode{
   text-decoration: underline;
 }
+
+/*END QUICK SNEAKERS PROJECT ========*/
+
+
 
 
 /*END PORTFOLIO PAGE ===========*/
@@ -183,8 +225,8 @@ a{
 
  #testimonial p {
    text-align: left;
-   margin-right: 6em;
-   margin-left: 6em;
+   margin-right: 4em;
+   margin-left: 4em;
 
  }
 
@@ -229,7 +271,7 @@ a{
   }
 
 
-
+/*START MEDIA QUERY ========*/
 @media(max-width: 900px) {
   #pictureRow {
     flex-direction: column;
