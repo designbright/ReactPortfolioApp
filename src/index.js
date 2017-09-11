@@ -14,7 +14,7 @@ import About from './Components/About.js';
 import Portfolio from './Components/Portfolio.js';
 import QuickSneakers from './Components/QuickSneakers.js';
 import IntranetRedesign from './Components/IntranetRedesign.js';
-
+import PersonalBranding from './Components/PersonalBranding.js';
 
 import Testimonials from './Components/Testimonials.js';
 import Contact from './Components/Contact.js';
@@ -23,11 +23,13 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route path="/Home" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route path="/About" component={About} />
+
         <Route path="/Portfolio" component={Portfolio}/>
         <Route path="/QuickSneakers" component={QuickSneakers}/>
         <Route path="/IntranetRedesign" component={IntranetRedesign}/>
+        <Route path="/PersonalBranding" component={PersonalBranding}/>
 
         <Route path="/Testimonials" component={Testimonials}/>
         <Route path="/Contact" component={Contact}/>

@@ -57,27 +57,28 @@ export default class Home extends Component {
         </a>
 
 
-        <a className="portfolioLink" href="/IntranetRedesign">
-        <div id="tile">
-          <img id="MojoHome"  alt="PortalHomePage" src={MojoHome} height ="250" width= "200"/>
-
-            <div id="tileDescription">
-            <p>This is where the project description will go. Need to add goal of project and languages used to create it</p>
-            </div>
-        </div>
-        </a>
-
-        <a className="portfolioLink" href="/PersonalBranding">
-        <div id="tile">
-          <img id="personalBranding"  alt="BrandPineapples" src={MojoHome} height ="250" width= "200"/>
-
-            <div id="tileDescription">
-            <p>This is where the project description will go. Need to add goal of project and languages used to create it</p>
-            </div>
-        </div>
-        </a>
-
       </div>
+  </section>
+
+  <section id="pictureRow">
+    <a className="portfolioLink" href="/IntranetRedesign">
+      <div className="showcase">
+        <p id="blue">INTRANET REDESIGN Iam a blue square</p>
+      </div>
+    </a>
+
+    <a className="portfolioLink" href="/PersonalBranding">
+      <div className="showcase">
+        <p id="red">PERSONAL BRADING Iam a red square</p>
+      </div>
+    </a>
+
+    <a className="portfolioLink" href="/QuickSneakers">
+      <div className="showcase">
+        <p id="green">QUICK SNEAKERS Iam a green square</p>
+      </div>
+    </a>
+
   </section>
 
   <section id="footer">
@@ -103,14 +104,6 @@ export default class Home extends Component {
 
     <p id="copyright">Copyright DesignBright 2017</p>
   </section>
-
-
-
-
-
-
-
-
 </div>
     );
   }

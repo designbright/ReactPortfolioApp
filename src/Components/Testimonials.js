@@ -35,11 +35,6 @@ export default class Testimonials extends Component {
           </div>
 
         </div>
-
-
-
-
-
       </section>
     );
   }

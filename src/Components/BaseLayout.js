@@ -11,7 +11,7 @@ export default class BaseLayout extends Component {
 
         <section id= "navBar">
           <ul>
-            <li className="navLink"><Link to="/Home">HOME</Link></li>
+            <li className="navLink"><Link to="/">HOME</Link></li>
             <li className="navLink"><Link to="/About">ABOUT</Link></li>
             <li className="navLink"><Link to="/Portfolio">PORTFOLIO</Link></li>
             <li className="navLink"><Link to="/Testimonials">TESTIMONIALS</Link></li>

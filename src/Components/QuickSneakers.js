@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
 
-export default class Portfolio extends Component {
+export default class QuickSneakers extends Component {
   constructor(props){
     super(props)
   }

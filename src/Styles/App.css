@@ -212,6 +212,7 @@ a{
   height: 200px;
   width: 200px;
   background: blue;
+  /*background-image: url("../Images/MojoWk1.png");*/
   margin-right: 25px;
 }
 
@@ -247,16 +248,11 @@ a{
  }
 
  #testimonialTiles{
-   display: flex;
-   justify-content: space-around;
-   margin-top: 1em;
  }
 
  #testimonial{
-   height: 25em;
-   padding: 2em 5em;
+   padding: 1em 3em;
    font-size: 20px;
-   width: 33%;
  }
 
  #testimonial p {

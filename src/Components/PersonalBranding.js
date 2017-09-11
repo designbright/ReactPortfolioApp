@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
-import MojoWk1 from "../Images/MojoWk1.png";
-import MojoWk2 from "../Images/MojoWk2.png";
-import MojoMonth3 from "../Images/MojoMonth3.png";
-import MojoWhiteboard from "../Images/MojoWhiteboard.png";
 
 export default class Portfolio extends Component {
   constructor(props){
@@ -17,7 +13,7 @@ export default class Portfolio extends Component {
     <div id="portfolioPage">
 
     <div id="testimonialHeader">
-      <h1 id="portfolioTop">New Hire Onboarding Portal</h1>
+      <h1 id="portfolioTop">Personal Branding</h1>
     </div>
 
     <section id="portfolioWrapper">
@@ -34,9 +30,7 @@ export default class Portfolio extends Component {
         <p id="viewCodeLink"><a id="quickSneakersCode" href="https://github.com">View the Code on GitHub</a></p>
 
       <div id="pictureRow">
-        <p id="blue">Iam a blue square
-          <img id="mojoWk1"  alt="Week1" src={MojoWk1} height ="150" width= "200"/></p>
-
+        <p id="blue">Iam a blue square</p>
         <p id="red">I am a red square</p>
         <p id= "green">I am a greeen square </p>
       </div>
