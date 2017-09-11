@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
+import QuickSneakersFinal from "../Images/QuickSneakers/QuickSneakersFinal.png";
+
 
 export default class QuickSneakers extends Component {
   constructor(props){
@@ -31,6 +33,10 @@ export default class QuickSneakers extends Component {
         </div>
 
         <p id="viewCodeLink"><a id="quickSneakersCode" target="_blank" href="https://github.com/designbright/Quick-Sneakers.git">View the Code on GitHub</a></p>
+
+        <p id="QSfinalContainer">
+          <img id="QSfinal"  alt="Quick Sneakers Final" src={QuickSneakersFinal} height ="600" width= "500"/>
+        </p>
 
       <div id="pictureRow">
           <p id="blue">Iam a blue square</p>
