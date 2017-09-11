@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
+import ProfilePic from "../Images/ProfilePic.JPG";
+
 
 export default class About extends Component {
   constructor(props){
@@ -14,6 +16,11 @@ export default class About extends Component {
         <div id="aboutHeader">
           <h1 id="aboutH1">Meet the Designer</h1>
         </div>
+
+
+      <div id="profilePic">
+        <img id="profilePicImage"  alt="profilePic" src={ProfilePic} height ="350" width= "250"/>
+      </div>
 
           <section className="aboutMeSection">
               <div id="aboutMe">

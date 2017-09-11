@@ -152,6 +152,19 @@ a{
   margin-left: 25px;
 }
 
+#profilePic{
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  width: 100%;
+}
+
+#profilePicImage{
+  border-radius: 125px;
+}
+
+
+
 #aboutH1 {
   font-family: 'bromello', 'Quicksand', 'sans-serif';
   font-size: 80px;
@@ -212,7 +225,6 @@ a{
   height: 200px;
   width: 200px;
   background: blue;
-  /*background-image: url("../Images/MojoWk1.png");*/
   margin-right: 25px;
 }
 
@@ -257,6 +269,10 @@ a{
 
  #testimonial p {
    text-align: left;
+ }
+
+ .testimonialName{
+   font-style: italic;
  }
 /*END TESTIMONIAL SECTION ===============*/
 

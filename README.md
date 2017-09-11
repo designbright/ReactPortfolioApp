@@ -2,15 +2,20 @@
 
 TO DO:
 
+GH PAGES!!!
+###ABOUT  
+  ADD PROFILE PICTURE
+
 Finish Contact Page
 Add link to PDF of Resume
 Add images to Home portfolio page
-  Add caption 
+  Add caption
 Make more responsive for mobile
 
+Move all images to IMAGE FOLDER
 
-Getting Started  
 
+##Getting Started  
 To get started you will need to use create-react-app to quickly scaffold a project. You should migrate your components into a components folder in the src directory and the styles into a styles folder in the src directory. Link up all pages to make sure they working and test using npm run start in the console, use Ctrl+c to exit.
 
 You will need use npm install --save react-router-dom in the terminal to save React Router 4 to your project dependencies and make it available for import.

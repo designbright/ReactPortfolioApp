@@ -35,10 +35,16 @@ export default class Portfolio extends Component {
 
       <div id="pictureRow">
         <p id="blue">Iam a blue square
-          <img id="mojoWk1"  alt="Week1" src={MojoWk1} height ="150" width= "200"/></p>
+          <img id="mojoWk1"  alt="Week1" src={MojoWk1} height ="150" width= "200"/>
+        </p>
 
-        <p id="red">I am a red square</p>
-        <p id= "green">I am a greeen square </p>
+        <p id="red">I am a red square
+          <img id="mojoWk2"  alt="Week2" src={MojoWk2} height ="150" width= "200"/>
+        </p>
+
+        <p id= "green">I am a greeen square
+          <img id="mojoWk3"  alt="Week3" src={MojoMonth3} height ="150" width= "200"/>
+        </p>
       </div>
 
       <div id="contentRow1">
