@@ -2,6 +2,11 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
+import linkedin from "../linkedin.PNG";
+import github from "../github.PNG";
+import instagram from "../instagram.PNG";
+import gmail from "../gmail.PNG";
+
 
 export default class Testimonials extends Component {
 
@@ -11,6 +16,8 @@ export default class Testimonials extends Component {
 
   render() {
     return (
+
+      <div>
       <section id="testimonialsSection">
 
         <div id="testimonialHeader">
@@ -24,18 +31,51 @@ export default class Testimonials extends Component {
             <p className="testimonialName"> -- Talent Acquisition Specialist @ Red Hat</p>
           </div>
 
+          <hr id="testimonialHR"/>
+
           <div id="testimonial">
             <p> Thank you for being such an exceptional collaborative partner. Your role is extremely important. Your partnership is essential to present a positive opinion of Red Hat to potential future employees. You are always engaging and leave important stakeholders (whether candidate's or hiring managers) with a positive impression. Your positive attitude and patience are second to none, and make you a wonderful partner to be paired with. Thank you for all that you do!""</p>
             <p className="testimonialName"> -- Talent Acquisition Specialist @ Red Hat</p>
           </div>
+
+          <hr id="testimonialHR"/>
 
           <div id="testimonial">
             <p>OMG!! I want everything you make--you are AMAZING!!!! I am interested in speaking with you at the fair; love your stuff!</p>
             <p className="testimonialName"> -- Craft Fair Customer</p>
           </div>
 
+          <hr id="testimonialHR"/>
+
         </div>
       </section>
+
+      <section id="footer">
+
+        <ul id="footerNav">
+
+          <a href="www.linkedin.com" id="linkedin">
+            <img id="linkedinLogo"  alt="linkedinLogo" src={linkedin}/>
+          </a>
+
+          <a href="wwww.instagram.com" id="instagram">
+            <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
+          </a>
+
+          <a href="wwww.github.com" id="github">
+            <img id="githubLogo" alt="githubLogo" src={github}/>
+          </a>
+
+          <a href="wwww.gmail.com" id="gmail">
+            <img id="gmailLogo" alt="ukmills12@gmail.com" src={gmail}/>
+          </a>
+        </ul>
+
+        <p id="copyright">Copyright DesignBright 2017</p>
+      </section>
+
+</div>
+
     );
   }
 }

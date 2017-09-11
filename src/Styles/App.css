@@ -31,6 +31,7 @@ a{
 
 #home{
   background-image: linear-gradient(-90deg, #0F7BFF, #FF0FCB);
+  height: 100vh;
 }
 
 /*HEADER ============*/
@@ -52,109 +53,20 @@ a{
 }
 /*END HEADER =============*/
 
-/*HOME - ABOUT SECTION =========*/
-#aboutSection{
-  padding: 2em 5em;
-  margin-top: -45px;
-}
-
-.aboutMeText{
-  text-align: left;
-}
-
-#readMyBlog{
-  color: blue;
-}
-/*END HOME- ABOUT SECTION=========*/
-
-
-/*HOME - PORTFOLIO SECTION =========*/
-#portfolioSection{
-  padding: 2em 5em;
-  /*background: #FF0FCB;*/
-  height: 35em;
-}
-
-#portfolioH1{
-  color: black;
-}
-
-#showcaseProjects{
-  display: flex;
-  justify-content: space-around;
-}
-
-#tile{
-  height: 400px;
-  width: 450px;
-  border: white 1px solid;
-  margin: 15px;
-  padding: 6px;
-  background: white;
-}
-
-#QSwireframe{
-  margin: 0 20px;
-  height: 300px;
-  width: 400px;
-}
-
-/*END HOME - PORTFOLIO SECTION ==========*/
-
-/*START HOME - FOOTER =======*/
-  #footer{
-    height: 3em;
-  }
-
-  #copyright{
-    margin-top: -25px;
-    margin-bottom: 25px;
-  }
-
-  #linkedinLogo{
-    height: 100px;
-    width: 150px;
-  }
-
-  #instagramLogo{
-    height: 110px;
-    width: 155px;
-  }
-
-  #githubLogo{
-    height: 100px;
-    width: 150px;
-  }
-
-  #gmailLogo{
-    height: 100px;
-    width: 150px;
-  }
-
-
-/*END HOME - FOOTER =======*/
-
 /*=============END HOME==============================*/
 /*==================================================*/
 
+/*==============START NAV LINK ROUTING====================*/
 
-
-/*==============START ROUTING====================*/
 /*START ABOUT PAGE =======*/
 #aboutHeader{
   height: 14em;
   background-image: linear-gradient(-90deg, #F6FF00, #FF00A1);
 }
 
-#journeyH2{
-  margin-left: 25px;
-}
-
 #profilePic{
-  display: flex;
-  justify-content: center;
-  margin: 15px auto;
-  width: 100%;
+  margin: 15px 55px;
+  float: left;
 }
 
 #profilePicImage{
@@ -170,15 +82,24 @@ a{
   text-align: left;
 }
 
+.aboutMeText{
+  text-align: left;
+  font-size: 20px;
+  margin-left: 3em;
+  margin-right: 6em;
+}
+
 #aboutMe p{
   text-align: left;
-  margin-left: 25px;
+
   margin-right: 25px;
 }
 
 #downloadResume a{
   color: orange;
 }
+
+
 
 /*END ABOUT PAGE =======*/
 
@@ -255,9 +176,6 @@ a{
    text-align: left;
  }
 
- #testimonialTiles{
- }
-
  #testimonial{
    padding: 1em 3em;
    font-size: 20px;
@@ -265,12 +183,50 @@ a{
 
  #testimonial p {
    text-align: left;
+   margin-right: 6em;
+   margin-left: 6em;
+
  }
 
  .testimonialName{
    font-style: italic;
  }
+
+ #testimonialHR{
+   width: 75%;
+   color: orange;
+ }
 /*END TESTIMONIAL SECTION ===============*/
+
+/*START HOME - FOOTER =======*/
+  #footer{
+    height: 3em;
+  }
+
+  #copyright{
+    margin-top: -25px;
+    margin-bottom: 25px;
+  }
+
+  #linkedinLogo{
+    height: 100px;
+    width: 150px;
+  }
+
+  #instagramLogo{
+    height: 110px;
+    width: 155px;
+  }
+
+  #githubLogo{
+    height: 100px;
+    width: 150px;
+  }
+
+  #gmailLogo{
+    height: 100px;
+    width: 150px;
+  }
 
 
 

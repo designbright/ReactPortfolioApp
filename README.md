@@ -3,7 +3,7 @@
 ##TO DO:
 
 Make splash page 100vh
-
+Update Contact Links
 
 
   GH PAGES!!!
@@ -17,7 +17,7 @@ Add images to Home portfolio page
     Add captions to projects or style into a card layout
 
 ###ABOUT  
-  ADD PROFILE PICTURE
+
 
 ###Contact
   Finish Contact Page - make nicer layout
