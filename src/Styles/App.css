@@ -88,7 +88,7 @@ a{
   height: 400px;
   width: 450px;
   border: white 1px solid;
-  margin: 15px;*
+  margin: 15px;
   padding: 6px;
   background: white;
 }
@@ -98,8 +98,6 @@ a{
   height: 300px;
   width: 400px;
 }
-
-
 
 /*END HOME - PORTFOLIO SECTION ==========*/
 
@@ -162,8 +160,6 @@ a{
 #profilePicImage{
   border-radius: 125px;
 }
-
-
 
 #aboutH1 {
   font-family: 'bromello', 'Quicksand', 'sans-serif';
@@ -278,4 +274,12 @@ a{
 
 
 
-@media(max-width: 1500px);
+@media(max-width: 900px) {
+  #pictureRow {
+    flex-direction: column;
+  }
+
+  .showcase p {
+    width: 100% !important;
+  }
+}

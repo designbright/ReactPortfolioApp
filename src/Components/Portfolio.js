@@ -22,11 +22,29 @@ export default class Portfolio extends Component {
           <p id="viewCodeLink"><a id="quickSneakersCode" href="https://github.com">View More Projects on GitHub</a></p>
           <h3 id="contentHeader">MORE PROJECTS COMING SOON!</h3>
         </div>
-      <div id="pictureRow">
-        <p id="blue">Iam a blue square</p>
-        <p id="red">I am a red square</p>
-        <p id= "green">I am a greeen square </p>
-      </div>
+        <a className="portfolioLink" href="/IntranetRedesign">
+          <div className="showcase">
+            <p id="blue">INTRANET REDESIGN Iam a blue square</p>
+          </div>
+        </a>
+
+        <a className="portfolioLink" href="/PersonalBranding">
+          <div className="showcase">
+            <p id="red">PERSONAL BRADING Iam a red square</p>
+          </div>
+        </a>
+
+        <a className="portfolioLink" href="/QuickSneakers">
+          <div className="showcase">
+            <p id="green">QUICK SNEAKERS Iam a green square</p>
+          </div>
+        </a>
+
+        <a className="portfolioLink" target="_blank" href="https://instagram.com/design_bright">
+          <div className="showcase">
+            <p id="green">VIEW MY ART WORK ON INSTAGRAM Iam a green square</p>
+          </div>
+        </a>
 
       <div id="pictureRow">
           <p id="blue">Iam a blue square</p>
@@ -34,10 +52,6 @@ export default class Portfolio extends Component {
          <p id= "green">I am a greeen square </p>
       </div>
     </section>
-
-
-
-
   </div>
     );
   }
