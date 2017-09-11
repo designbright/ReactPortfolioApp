@@ -2,11 +2,13 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
-import MojoSite from "../MojoSite.png";
-import MojoWk1 from "../Images/MojoWk1.png";
-import MojoWk2 from "../Images/MojoWk2.png";
-import MojoMonth3 from "../Images/MojoMonth3.png";
-import MojoWhiteboard from "../Images/MojoWhiteboard.png";
+import MojoSite from "../Images/IntranetRedesign/MojoSite.png";
+import MojoWk1 from "../Images/IntranetRedesign/MojoWk1.png";
+import MojoWk2 from "../Images/IntranetRedesign/MojoWk2.png";
+import MojoMonth3 from "../Images/IntranetRedesign/MojoMonth3.png";
+import MojoWhiteboard from "../Images/IntranetRedesign/MojoWhiteboard.png";
+
+
 
 export default class Portfolio extends Component {
   constructor(props){

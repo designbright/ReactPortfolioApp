@@ -4,6 +4,10 @@ import BaseLayout from './BaseLayout.js';
 
 import QuickSneakersFinal from "../Images/QuickSneakers/QuickSneakersFinal.png";
 
+import QuickSneakersWireframe from "../Images/QuickSneakers/QuickSneakersWireframe.jpg";
+
+import QuickSneakersCodeSnip from "../Images/QuickSneakers/QuickSneakersCodeSnip.png";
+
 
 export default class QuickSneakers extends Component {
   constructor(props){
@@ -34,9 +38,16 @@ export default class QuickSneakers extends Component {
 
         <p id="viewCodeLink"><a id="quickSneakersCode" target="_blank" href="https://github.com/designbright/Quick-Sneakers.git">View the Code on GitHub</a></p>
 
+<p id="viewCodeLink"><a id="quickSneakersCode" target="_blank" href="  https://designbright.github.io/Quick-Sneakers/">View the Live Site</a></p>
+
+
         <p id="QSfinalContainer">
           <img id="QSfinal"  alt="Quick Sneakers Final" src={QuickSneakersFinal} height ="600" width= "500"/>
         </p>
+
+
+
+
 
       <div id="pictureRow">
           <p id="blue">Iam a blue square</p>
@@ -51,6 +62,14 @@ export default class QuickSneakers extends Component {
           <p>I began by creating a wireframe in order to visually breakdown the components of the mockup. This also helped me decide what type of HTML elements that I would need and how I needed to structure them.
 
           After writing the HTML file using the text editor, Atom, I began styling the site with CSS. I implemented floats throughout the whole page. </p>
+
+          <p id="QSfinalContainer">
+            <img id="QSfinal"  alt="Quick Sneakers Final" src={QuickSneakersWireframe} height ="600" width= "500"/>
+          </p>
+
+          <p id="QSfinalContainer">
+            <img id="QSfinal"  alt="Quick Sneakers Final" src={QuickSneakersCodeSnip} height ="500" width= "700"/>
+          </p>
         </div>
       </div>
 
