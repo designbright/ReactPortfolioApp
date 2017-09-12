@@ -37,13 +37,13 @@ export default class Portfolio extends Component {
           <section id="portfolioRow1">
             <a className="portfolioLink" href="/PersonalBranding">
               <p id="brandBoardContainer">
-                <img id="brandboard1" alt="brandBoard" src={BrandBoard1} height="600" width="450"/>
+                <img id="brandboard1" alt="Personal Branding Project" src={BrandBoard1} height="600" width="450"/>
               </p>
             </a>
 
             <a className="portfolioLink" href="/QuickSneakers">
               <p id="brandBoardContainer">
-                <img id="brandboard1" alt="brandBoard" src={Shoe} height="300" width="450"/>
+                <img id="brandboard1" alt="Quick Sneakers Project" src={Shoe} height="300" width="450"/>
               </p>
             </a>
           </section>
@@ -52,13 +52,13 @@ export default class Portfolio extends Component {
 
             <a className="portfolioLink" href="/JavaScriptCalculator">
               <p id="brandBoardContainer">
-                <img id="brandboard1" alt="brandBoard" src={JavaScriptCalcScreenShot} height="450" width="350"/>
+                <img id="brandboard1" alt="JavaScript Calculator Project" src={JavaScriptCalcScreenShot} height="450" width="350"/>
               </p>
             </a>
 
             <a className="portfolioLink" href="/IntranetRedesign">
               <p id="brandBoardContainer">
-                <img id="brandboard1" alt="brandBoard" src={Mojo} height="450" width="650"/>
+                <img id="brandboard1" alt="Intranet Redesign Project" src={Mojo} height="450" width="650"/>
               </p>
             </a>
 

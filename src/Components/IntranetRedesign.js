@@ -8,6 +8,11 @@ import MojoWk2 from "../Images/IntranetRedesign/MojoWk2.png";
 import MojoMonth3 from "../Images/IntranetRedesign/MojoMonth3.png";
 import MojoWhiteboard from "../Images/IntranetRedesign/MojoWhiteboard.png";
 
+import linkedin from "../linkedin.PNG";
+import github from "../github.PNG";
+import instagram from "../instagram.PNG";
+import gmail from "../gmail.PNG";
+
 
 
 export default class Portfolio extends Component {
@@ -71,13 +76,31 @@ export default class Portfolio extends Component {
           </p>
         </div>
       </div>
+    </section>
 
-      <div id="contentRow1">
-        <div id="contentText">
-          <h3 id="contentHeader">CHALLENGES AND LESSONS LEARNED</h3>
-          <p>ADD CONTENT</p>
-        </div>
-      </div>
+
+    <section id="footer">
+      <hr/>
+      <ul id="footerNav">
+
+        <a href="https://www.linkedin.com/in/kelly-miller-b2417756/
+" id="linkedin" target="_blank">
+          <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
+        </a>
+
+        <a href="https://www.instagram.com/design_bright/
+" id="instagram" target="_blank">
+          <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
+        </a>
+
+        <a href="https://github.com/designbright" id="github" target="_blank">
+          <img id="githubLogo" alt="githubLogo" src={github}/>
+        </a>
+
+        <a href="mailto:ukmills12@gmail.com" id="gmail" target="_blank">
+          <img id="gmailLogo" alt="ukmills12@gmail.com" src={gmail}/>
+        </a>
+      </ul>
     </section>
   </div>
     );
