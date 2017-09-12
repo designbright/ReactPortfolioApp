@@ -24,7 +24,7 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route exact path="/ReactPortfolioApp" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio}/>
         <Route path="/QuickSneakers" component={QuickSneakers}/>
