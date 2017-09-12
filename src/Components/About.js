@@ -45,13 +45,7 @@ export default class About extends Component {
                 <p>My artistic style is bright, simple, and colorful. I am inspired by artists who color outside the lines. I dabble in mediums such as acrylics and watercolor. Doodles, line drawings, and sketches ae especially awesome to me!</p>
 
                 <p>Prior to being a Developer, I was a student-athlete at the University of Kentucky and a member of the women's soccer team majoring in Kinesiology and Education. I graduated from the University of North Carolina at Chapel Hill with a degree in Exercise and Sport Science. At UNC, I  was a member of the women's rugby and rowing teams.</p>
-
-                <h2 id="journeyH2">Why I Love Programming</h2>
-
-                <p>I am a Web Developer and Designer from Raleigh, North Carolina.</p>
-
-                <p> Currently, I am a Software Engineering student at the Iron Yard in Raleigh, North Carolina where I am acquiring skills for front and back-end web development. I will graduate from the Iron Yard in September 2017.</p>
-
+                
                 <p id="downloadResume"><a target="_blank" href={Resume}>Download My Resume</a></p>
 
               </div>
