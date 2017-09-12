@@ -26,7 +26,6 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/About" component={About} />
-
         <Route path="/Portfolio" component={Portfolio}/>
         <Route path="/QuickSneakers" component={QuickSneakers}/>
         <Route path="/IntranetRedesign" component={IntranetRedesign}/>

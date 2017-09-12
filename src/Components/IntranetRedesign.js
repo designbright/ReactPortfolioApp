@@ -78,9 +78,7 @@ export default class Portfolio extends Component {
           <p>ADD CONTENT</p>
         </div>
       </div>
-
     </section>
-
   </div>
     );
   }

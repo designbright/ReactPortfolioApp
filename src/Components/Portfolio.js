@@ -50,17 +50,17 @@ export default class Portfolio extends Component {
 
           <section id="portfolioRow2">
 
-          <a className="portfolioLink" href="/JavaScriptCalculator">
-            <p id="brandBoardContainer">
-              <img id="brandboard1" alt="brandBoard" src={JavaScriptCalcScreenShot} height="450" width="350"/>
-            </p>
-          </a>
+            <a className="portfolioLink" href="/JavaScriptCalculator">
+              <p id="brandBoardContainer">
+                <img id="brandboard1" alt="brandBoard" src={JavaScriptCalcScreenShot} height="450" width="350"/>
+              </p>
+            </a>
 
-          <a className="portfolioLink" href="/IntranetRedesign">
-            <p id="brandBoardContainer">
-              <img id="brandboard1" alt="brandBoard" src={Mojo} height="450" width="650"/>
-            </p>
-          </a>
+            <a className="portfolioLink" href="/IntranetRedesign">
+              <p id="brandBoardContainer">
+                <img id="brandboard1" alt="brandBoard" src={Mojo} height="450" width="650"/>
+              </p>
+            </a>
 
           </section>
         </section>
@@ -68,20 +68,21 @@ export default class Portfolio extends Component {
         <section id="footer">
           <hr/>
           <ul id="footerNav">
-
-            <a href="www.linkedin.com" id="linkedin">
+            <a href="https://www.linkedin.com/in/kelly-miller-b2417756/
+  " id="linkedin" target="_blank">
               <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
             </a>
 
-            <a href="wwww.instagram.com" id="instagram" target="_blank">
+            <a href="https://www.instagram.com/design_bright/
+  " id="instagram" target="_blank">
               <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
             </a>
 
-            <a href="wwww.github.com" id="github">
+            <a href="https://github.com/designbright" id="github" target="_blank">
               <img id="githubLogo" alt="githubLogo" src={github}/>
             </a>
 
-            <a href="wwww.gmail.com" id="gmail">
+            <a href="mailto:ukmills12@gmail.com" id="gmail" target="_blank">
               <img id="gmailLogo" alt="ukmills12@gmail.com" src={gmail}/>
             </a>
           </ul>
