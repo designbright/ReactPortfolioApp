@@ -27,24 +27,28 @@ export default class Portfolio extends Component {
 
         <section id="portfolioWrapper">
           <div id="contentText">
-            <h1>MORE PROJECTS COMING SOON!</h1>
+            <h1 id="moreProjects">MORE PROJECTS COMING SOON!</h1>
             <p id="viewCodeLink">
               <a id="quickSneakersCode" target="_blank" href="https://github.com/designbright">View More Projects on GitHub</a>
             </p>
             <h3 id="contentHeader">Click an image below to learn more about each project</h3>
           </div>
 
-          <a className="portfolioLink" href="/PersonalBranding">
-            <p id="brandBoardContainer">
-              <img id="brandboard1" alt="brandBoard" src={BrandBoard1} height="600" width="450"/>
-            </p>
-          </a>
+          <section id="portfolioRow1">
+            <a className="portfolioLink" href="/PersonalBranding">
+              <p id="brandBoardContainer">
+                <img id="brandboard1" alt="brandBoard" src={BrandBoard1} height="600" width="450"/>
+              </p>
+            </a>
 
-          <a className="portfolioLink" href="/QuickSneakers">
-            <p id="brandBoardContainer">
-              <img id="brandboard1" alt="brandBoard" src={Shoe} height="300" width="450"/>
-            </p>
-          </a>
+            <a className="portfolioLink" href="/QuickSneakers">
+              <p id="brandBoardContainer">
+                <img id="brandboard1" alt="brandBoard" src={Shoe} height="300" width="450"/>
+              </p>
+            </a>
+          </section>
+
+          <section id="portfolioRow2">
 
           <a className="portfolioLink" href="/JavaScriptCalculator">
             <p id="brandBoardContainer">
@@ -54,17 +58,11 @@ export default class Portfolio extends Component {
 
           <a className="portfolioLink" href="/IntranetRedesign">
             <p id="brandBoardContainer">
-              <img id="brandboard1" alt="brandBoard" src={Mojo} height="450" width="350"/>
+              <img id="brandboard1" alt="brandBoard" src={Mojo} height="450" width="650"/>
             </p>
           </a>
 
-          <a className="portfolioLink" target="_blank" href="https://instagram.com/design_bright">
-            <p id="brandBoardContainer">
-            <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
-            </p>
-          </a>
-
-
+          </section>
         </section>
 
         <section id="footer">
@@ -75,7 +73,7 @@ export default class Portfolio extends Component {
               <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
             </a>
 
-            <a href="wwww.instagram.com" id="instagram">
+            <a href="wwww.instagram.com" id="instagram" target="_blank">
               <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
             </a>
 

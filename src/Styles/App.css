@@ -124,6 +124,11 @@ a{
   text-align: left;
 }
 
+#moreProjects{
+  text-align: left;
+  margin-left: 2em;
+}
+
 #pictureRow{
   display: flex;
   justify-content: space-around;
@@ -151,13 +156,12 @@ a{
 }
 
 #contentHeader{
-  margin-left: 5em;
+  margin-left: 2em;
 }
 
 #contentText p{
   text-align: left;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 2em;
 }
 
 #viewCodeLink{
@@ -166,6 +170,14 @@ a{
 
 #mojoSiteContainer{
   margin-left: 5em;
+}
+
+#portfolioRow1{
+  display: flex;
+}
+
+#portfolioRow2{
+  display: flex;
 }
 
 /*PERSONAL BRANDING ======*/
@@ -304,4 +316,14 @@ a{
   .showcase p {
     width: 100% !important;
   }
+
+  #portfolioRow1{
+    flex-direction: column;
+  }
+
+  #portfolioRow2{
+    flex-direction: column;
+  }
+
+
 }
