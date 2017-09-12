@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
 import QuickSneakersFinal from "../Images/QuickSneakers/QuickSneakersFinal.png";
-
 import QuickSneakersWireframe from "../Images/QuickSneakers/QuickSneakersWireframe.jpg";
-
 import QuickSneakersCodeSnip from "../Images/QuickSneakers/QuickSneakersCodeSnip.png";
 
 
@@ -44,9 +42,6 @@ export default class QuickSneakers extends Component {
         <p id="QSfinalContainer">
           <img id="QSfinal"  alt="Quick Sneakers Final" src={QuickSneakersFinal} height ="600" width= "500"/>
         </p>
-
-
-
 
 
       <div id="pictureRow">

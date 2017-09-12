@@ -4,17 +4,12 @@
 
 Make splash page 100vh
 Update Contact Links
+Clean up code - indentations, repeated code, commented out code
 
 
   GH PAGES!!!
   OR - connect to personal domain
 
-Add link to PDF of Resume (Which section?)
-  Make this open in a new tab
-
-###Home
-Add images to Home portfolio page
-    Add captions to projects or style into a card layout
 
 ###Contact
   Finish Contact Page - make nicer layout
