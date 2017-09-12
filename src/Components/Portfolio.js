@@ -28,10 +28,18 @@ export default class Portfolio extends Component {
         <section id="portfolioWrapper">
           <div id="contentText">
             <h1 id="moreProjects">MORE PROJECTS COMING SOON!</h1>
-            <p id="viewCodeLink">
-              <a id="quickSneakersCode" target="_blank" href="https://github.com/designbright">View More Projects on GitHub</a>
-            </p>
             <h3 id="contentHeader">Click an image below to learn more about each project</h3>
+            <p id="viewCodeLink">
+              <a className="portfolioLinks" target="_blank" href="https://github.com/designbright">View More Projects on GitHub</a>
+            </p>
+
+            <p className="portfolioLinks" >
+            <a href="https://www.instagram.com/design_bright/
+" id="instagram" target="_blank">View my Artwork on Instagram</a>
+            </p>
+
+
+
           </div>
 
           <section id="portfolioRow1">

@@ -135,26 +135,6 @@ a{
   padding: 15px;
 }
 
-#red{
-  height: 400px;
-  width: 400px;
-  background: red;
-  margin-right: 25px;
-}
-
-#green{
-  height: 400px;
-  width: 400px;
-  background: green;
-}
-
-#blue{
-  height: 400px;
-  width: 400px;
-  background: blue;
-  margin-right: 25px;
-}
-
 #contentHeader{
   margin-left: 2em;
 }
@@ -166,6 +146,10 @@ a{
 
 #viewCodeLink{
   text-align: center;
+}
+
+.portfolioLinks{
+  text-decoration: underline;
 }
 
 #mojoSiteContainer{
@@ -207,8 +191,6 @@ a{
   text-decoration: underline;
 }
 
-
-
 /*END QUICK SNEAKERS PROJECT ========*/
 
 /*START JAVASCRIPT CALCULATOR ===*/
@@ -233,6 +215,15 @@ a{
 }
 
 /*END JAVASCRIPT CALCULATOR ====*/
+
+/*START INTRANET REDESIGN*/
+
+#mojoFinalProduct{
+  margin-left: 3em;
+}
+
+
+/*END INTRANET REDESIGN*/
 
 
 
