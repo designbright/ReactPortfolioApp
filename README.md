@@ -25,7 +25,7 @@ Move all images to IMAGE FOLDER and re-route paths
 
 
 ##Getting Started
-TO GET APP RUNNING AGAIN FROM LOCAL COMPUTER - cd to project and type npm start in terminal
+TO GET APP RUNNING AGAIN FROM LOCAL COMPUTER - cd to project and type npm start in terminal. React will automatically update any changes made in code editor in browser
 
 
 To get started you will need to use create-react-app to quickly scaffold a project. You should migrate your components into a components folder in the src directory and the styles into a styles folder in the src directory. Link up all pages to make sure they working and test using npm run start in the console, use Ctrl+c to exit.

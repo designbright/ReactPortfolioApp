@@ -70,8 +70,6 @@ export default class Testimonials extends Component {
             <img id="gmailLogo" alt="ukmills12@gmail.com" src={gmail}/>
           </a>
         </ul>
-
-        <p id="copyright">Copyright DesignBright 2017</p>
       </section>
 
 </div>

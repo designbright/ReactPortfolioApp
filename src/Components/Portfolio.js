@@ -2,7 +2,10 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
-import personalLogo from "../personalLogo.PNG";
+
+import BrandBoard1 from "../Images/PersonalBranding/BrandBoard1.png";
+import Shoe from "../Images/QuickSneakers/shoe2.png";
+import JavaScriptCalcScreenShot from "../Images/JavaScriptCalculator/JSCalcScreenShot.png";
 
 import linkedin from "../linkedin.PNG";
 import github from "../github.PNG";
@@ -26,7 +29,31 @@ export default class Portfolio extends Component {
         <div id="contentText">
           <p id="viewCodeLink"><a id="quickSneakersCode" target="_blank" href="https://github.com/designbright">View More Projects on GitHub</a></p>
           <h3 id="contentHeader">MORE PROJECTS COMING SOON!</h3>
+          <h3 id="contentHeader">Click an image below to learn more about each project</h3>
         </div>
+
+      <a className="portfolioLink" href="/PersonalBranding">
+        <p id="brandBoardContainer">
+          <img id="brandboard1"  alt="brandBoard" src={BrandBoard1} height ="600" width= "450"/>
+        </p>
+      </a>
+
+      <a className="portfolioLink" href="/QuickSneakers">
+        <p id="brandBoardContainer">
+          <img id="brandboard1"  alt="brandBoard" src={Shoe} height ="300" width= "450"/>
+        </p>
+      </a>
+
+      <a className="portfolioLink" href="/JavaScriptCalculator">
+        <p id="brandBoardContainer">
+          <img id="brandboard1"  alt="brandBoard" src={JavaScriptCalcScreenShot} height ="450" width= "350"/>
+        </p>
+      </a>
+
+
+
+
+
         <a className="portfolioLink" href="/IntranetRedesign">
           <div className="showcase">
             <p id="blue">INTRANET REDESIGN </p>
@@ -38,6 +65,8 @@ export default class Portfolio extends Component {
             <p id="red">PERSONAL BRADING Iam a red square</p>
           </div>
         </a>
+
+
 
         <a className="portfolioLink" href="/QuickSneakers">
           <div className="showcase">
@@ -79,7 +108,6 @@ export default class Portfolio extends Component {
         </a>
       </ul>
 
-      <p id="copyright">Copyright DesignBright 2017</p>
     </section>
 
 
