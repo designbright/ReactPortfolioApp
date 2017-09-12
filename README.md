@@ -20,6 +20,13 @@ Update Favicon
   Format images
 
 
+GH PAGES with React
+1. Add hompage to .json file
+2. run 'npm install --save-dev gh-pages' in your project directory
+3. add "deploy" : "npm run build&&gh-pages -d build" inside the scripts object
+4. 'npm run deploy' inside of project directory. It will say its published after this runs.
+
+
 ##Getting Started
 TO GET APP RUNNING AGAIN FROM LOCAL COMPUTER - cd to project and type npm start in terminal. React will automatically update any changes made in code editor in browser
 

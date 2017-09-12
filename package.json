@@ -2,7 +2,6 @@
   "name": "portfolioapp",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -17,8 +16,8 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
   },
-
-    "homepage": "https://designbright.github.io/ReactPortfolioApp"
-
+  "homepage": "https://designbright.github.io/ReactPortfolioApp",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
