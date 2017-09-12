@@ -10,13 +10,16 @@ Clean up code - indentations, repeated code, commented out code
   GH PAGES!!!
   OR - connect to personal domain
 
-
 ###Contact
   Finish Contact Page - make nicer layout
     Contact form?
 
 Make more responsive for mobile in CSS with Media Queries
 Move all images to IMAGE FOLDER and re-route paths
+
+###JavaScript Calculator  
+  Finish adding Challeneges and Lessons Learned section
+  Format images 
 
 
 ##Getting Started
