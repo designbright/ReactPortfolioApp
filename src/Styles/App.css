@@ -186,7 +186,6 @@ a{
 
 }
 
-
 /*END PERSONAL BRANDING ======*/
 
 
@@ -197,6 +196,33 @@ a{
 }
 
 /*END QUICK SNEAKERS PROJECT ========*/
+
+/*START JAVASCRIPT CALCULATOR ===*/
+#calculatorContainer{
+  margin: 15px 55px;
+  float: left;
+}
+
+#theProcess{
+  margin-left: 3em;
+}
+
+.jsCalcCode{
+  margin-left: -4em;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+#htmlCodeSnip{
+  margin-left: 3em;
+}
+
+
+
+
+
+/*END JAVASCRIPT CALCULATOR ====*/
 
 
 

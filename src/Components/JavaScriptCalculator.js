@@ -25,35 +25,32 @@ export default class About extends Component {
           <h1 id="aboutH1">JavaScript Calculator</h1>
         </div>
 
-        <div id="profilePic">
+        <div id="calculatorContainer">
           <img id="finalCalculator" alt="profilePic" src={JavaScriptCalcScreenShot} height="350" width="250"/>
         </div>
 
         <section id="portfolioWrapper">
           <div id="contentText">
             <h3 id="contentHeader">OVERVIEW</h3>
-            <p>The JavaScript calculator was a project that I completed in July 2017 as part of The Iron Yard's Full-Stack Web Development Program. The Iron Yard was an immersive coding boot camp designed to help new developers learn the fundamentals of front and back-end programming languages.</p>
-
             <p>The goal of this project was to build a calculator using JavaScript. The project was designed to help me understand how to write basic JavaScript functions,  algorithms, and work with the DOM to respond to user inputs. </p>
 
-            <p>The tools I used to complete this project were Google Chrome, Chrome Developer Tool - Inspect, Atom Text Editor, and GitHub.
+            <p>The JavaScript calculator was a project that I completed in July 2017 as part of The Iron Yard's Full-Stack Web Development Program. The Iron Yard was an immersive coding boot camp designed to help new developers learn the fundamentals of front and back-end programming languages.</p>
+
+            <p>The tools I used to complete this project were Google Chrome, Chrome Developer Tool - Inspect, Atom Text Editor, and GitHub. The languages used in the project were HTML, CSS, and JavaScript.
             </p>
 
-            <p>The languages used in the project were HTML, CSS, and JavaScript</p>
+          <p>
+            <ul>
+              <li><a className="jsCalcCode" target="_blank" href="https://github.com/designbright/JavaScriptCalculator.git">View the Code on GitHub</a></li>
+              <li><a className="jsCalcCode" target="_blank" href="  https://designbright.github.io/JavaScriptCalculator/">View the Live Site</a></li>
+            </ul>
+          </p>
           </div>
-
-          <p id="viewCodeLink">
-            <a id="quickSneakersCode" target="_blank" href="https://github.com/designbright/Quick-Sneakers.git">View the Code on GitHub</a>
-          </p>
-
-          <p id="viewCodeLink">
-            <a id="quickSneakersCode" target="_blank" href="  https://designbright.github.io/Quick-Sneakers/">View the Live Site</a>
-          </p>
 
           <div id="contentRow1">
 
-            <div id="contentText">
-              <h3 id="contentHeader">THE PROCESS</h3>
+            <div id="theProcess">
+              <h3 id="theProcessHeader">THE PROCESS</h3>
               <p>Step 1: Setup Project Files in Atom</p>
                 <p>
                   Create an index.html file
@@ -69,25 +66,11 @@ export default class About extends Component {
 
             </div>
           </div>
-
-          <div id="contentRow1">
-            <div id="contentText">
-              <h3 id="contentHeader">CHALLENGES AND LESSONS LEARNED</h3>
-              <p>ADD CONTENT HERE</p>
-            </div>
-          </div>
         </section>
 
-        <img id="calcMockup" alt="profilePic" src={CalculatorMockup} height="350" width="250"/>
-        <img id="htmlCodeSnip" alt="profilePic" src={HTMLcode} height="450" width="650"/>
-        <img id="JSCodeSnip" alt="profilePic" src={JScode} height="450" width="650"/>
 
-        <div id="pictureRow">
-          <p id="blue">Iam a blue square</p>
-          <p id="red">I am a red square</p>
-          <p id="green">I am a greeen square
-          </p>
-        </div>
+        <img id="htmlCodeSnip" alt="HTML Code Snippet" src={HTMLcode} height="450" width="450"/>
+        <img id="JSCodeSnip" alt="profilePic" src={JScode} height="450" width="450"/>
 
         <section id="footer">
           <hr/>
