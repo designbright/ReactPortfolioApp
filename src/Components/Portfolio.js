@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
+
 import BrandBoard1 from "../Images/PersonalBranding/BrandBoard1.png";
 import Shoe from "../Images/QuickSneakers/shoe2.png";
 import JavaScriptCalcScreenShot from "../Images/JavaScriptCalculator/JSCalcScreenShot.png";

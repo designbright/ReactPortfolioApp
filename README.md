@@ -7,7 +7,6 @@ Update Contact Links
 Clean up code - indentations, repeated code, commented out code
 
 Update Favicon
-
   GH PAGES!!!
   OR - connect to personal domain
 
@@ -22,7 +21,7 @@ Update Favicon
 
 GH PAGES with React
 1. Add hompage to .json file
-2. run 'npm install --save-dev gh-pages' in your project directory
+2. run 'npm install --save-dev gh-pages' in terminal your project directory
 3. add "deploy" : "npm run build&&gh-pages -d build" inside the scripts object
 4. 'npm run deploy' inside of project directory. It will say its published after this runs.
 

@@ -16,7 +16,6 @@ import QuickSneakers from './Components/QuickSneakers.js';
 import IntranetRedesign from './Components/IntranetRedesign.js';
 import PersonalBranding from './Components/PersonalBranding.js';
 import JavaScriptCalculator from './Components/JavaScriptCalculator.js';
-
 import Testimonials from './Components/Testimonials.js';
 import Contact from './Components/Contact.js';
 
@@ -25,6 +24,7 @@ ReactDOM.render(
     <BaseLayout>
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route path="/ReactPortfolioApp" component={Home}/>
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio}/>
         <Route path="/QuickSneakers" component={QuickSneakers}/>
