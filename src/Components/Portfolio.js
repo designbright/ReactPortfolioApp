@@ -50,6 +50,7 @@ export default class Portfolio extends Component {
               </p>
             </Link>
 
+
             <a className="portfolioLink" href="/QuickSneakers">
               <p id="brandBoardContainer">
                 <img id="brandboard1" alt="Quick Sneakers Project" src={Shoe} height="300" width="450"/>

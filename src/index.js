@@ -23,16 +23,16 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/ReactPortfolioApp" component={Home}/>
+        <Route exact path="/" component={Home} />
+        <Route path="/ReactPortfolioApp" component={Home} />
         <Route path="/About" component={About} />
-        <Route path="/Portfolio" component={Portfolio}/>
-        <Route path="/QuickSneakers" component={QuickSneakers}/>
-        <Route path="/IntranetRedesign" component={IntranetRedesign}/>
-        <Route path="/PersonalBranding" component={PersonalBranding}/>
-        <Route path="/JavaScriptCalculator" component={JavaScriptCalculator}/>
-        <Route path="/Testimonials" component={Testimonials}/>
-        <Route path="/Contact" component={Contact}/>
+        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/QuickSneakers" component={QuickSneakers} />
+        <Route path="/IntranetRedesign" component={IntranetRedesign} />
+        <Route path="/PersonalBranding" component={PersonalBranding} />
+        <Route path="/JavaScriptCalculator" component={JavaScriptCalculator} />
+        <Route path="/Testimonials" component={Testimonials} />
+        <Route path="/Contact" component={Contact} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
