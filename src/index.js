@@ -23,8 +23,6 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/ReactPortfolioApp" component={Home} />
         <Route path="/About" component={About} />
         <Route path="/Portfolio" component={Portfolio} />
         <Route path="/QuickSneakers" component={QuickSneakers} />
@@ -33,6 +31,8 @@ ReactDOM.render(
         <Route path="/JavaScriptCalculator" component={JavaScriptCalculator} />
         <Route path="/Testimonials" component={Testimonials} />
         <Route path="/Contact" component={Contact} />
+        <Route exact path="/" component={Home} />
+
       </Switch>
     </BaseLayout>
   </BrowserRouter>
