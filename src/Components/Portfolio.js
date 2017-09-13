@@ -44,11 +44,11 @@ export default class Portfolio extends Component {
           </div>
 
           <section id="portfolioRow1">
-            <a className="portfolioLink" href="/PersonalBranding">
+            <Link className="portfolioLink" to="/PersonalBranding">
               <p id="brandBoardContainer">
                 <img id="brandboard1" alt="Personal Branding Project" src={BrandBoard1} height="600" width="450"/>
               </p>
-            </a>
+            </Link>
 
             <a className="portfolioLink" href="/QuickSneakers">
               <p id="brandBoardContainer">
