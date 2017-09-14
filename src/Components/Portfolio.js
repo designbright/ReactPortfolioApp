@@ -50,26 +50,26 @@ export default class Portfolio extends Component {
               </p>
             </Link>
 
-            <a className="portfolioLink" href="/QuickSneakers">
+            <Link className="portfolioLink" to="/QuickSneakers">
               <p id="brandBoardContainer">
                 <img id="brandboard1" alt="Quick Sneakers Project" src={Shoe} height="300" width="450"/>
               </p>
-            </a>
+            </Link>
           </section>
 
           <section id="portfolioRow2">
 
-            <a className="portfolioLink" href="/JavaScriptCalculator">
+            <Link className="portfolioLink" to="/JavaScriptCalculator">
               <p id="brandBoardContainer">
                 <img id="brandboard1" alt="JavaScript Calculator Project" src={JavaScriptCalcScreenShot} height="450" width="350"/>
               </p>
-            </a>
+            </Link>
 
-            <a className="portfolioLink" href="/IntranetRedesign">
+            <Link className="portfolioLink" to="/IntranetRedesign">
               <p id="brandBoardContainer">
                 <img id="brandboard1" alt="Intranet Redesign Project" src={Mojo} height="450" width="650"/>
               </p>
-            </a>
+            </Link>
 
           </section>
         </section>
