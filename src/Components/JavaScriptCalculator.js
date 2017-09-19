@@ -32,12 +32,11 @@ export default class About extends Component {
         <section id="portfolioWrapper">
           <div id="contentText">
             <h3 id="contentHeader">OVERVIEW</h3>
-            <p>The goal of this project was to build a calculator using JavaScript. The project was designed to help me understand how to write basic JavaScript functions,  algorithms, and work with the DOM to respond to user inputs. </p>
+            <p>The goal of this project was to build a calculator using JavaScript. The project was designed to help me understand how to write basic JavaScript functions, algorithms, and work with the DOM to respond to user inputs. </p>
 
             <p>The JavaScript calculator was a project that I completed in July 2017 as part of The Iron Yard's Full-Stack Web Development Program. The Iron Yard was an immersive coding boot camp designed to help new developers learn the fundamentals of front and back-end programming languages.</p>
 
-            <p>The tools I used to complete this project were Google Chrome, Chrome Developer Tool - Inspect, Atom Text Editor, and GitHub. The languages used in the project were HTML, CSS, and JavaScript.
-            </p>
+            <p>The tools I used to complete this project were Google Chrome, Chrome Developer Tool - Inspect, Atom Text Editor, and GitHub. The languages used in the project were HTML, CSS, and JavaScript. </p>
 
           <p>
             <ul>
@@ -62,12 +61,9 @@ export default class About extends Component {
                 <p>In the HTML file, I chose to use a table to represent the body of my calculator. This enabled me to  rows and columns that would create the buttons. Using a table also allowed me to control specific elements I wanted to target with the JavaScript.  Next, I styled it using basic CSS. </p>
 
               <p>Step 3: Code the JavaScript</p>
-                <p>Create some functions to store repeatable steps. You'll need to find a way to track the numbers pressed until the = is pressed</p>
-
             </div>
           </div>
         </section>
-
 
         <img id="htmlCodeSnip" alt="HTML Code Snippet" src={HTMLcode} height="450" width="450"/>
         <img id="JSCodeSnip" alt="profilePic" src={JScode} height="450" width="450"/>
@@ -75,24 +71,21 @@ export default class About extends Component {
         <section id="footer">
           <hr/>
           <ul id="footerNav">
+            <a href="https://www.linkedin.com/in/kelly-miller-b2417756/" id="linkedin" target="_blank">
+              <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
+            </a>
 
-          <a href="https://www.linkedin.com/in/kelly-miller-b2417756/
-" id="linkedin" target="_blank">
-            <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
-          </a>
+            <a href="https://www.instagram.com/design_bright/" id="instagram" target="_blank">
+              <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
+            </a>
 
-          <a href="https://www.instagram.com/design_bright/
-" id="instagram" target="_blank">
-            <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
-          </a>
+            <a href="https://github.com/designbright" id="github" target="_blank">
+              <img id="githubLogo" alt="githubLogo" src={github}/>
+            </a>
 
-          <a href="https://github.com/designbright" id="github" target="_blank">
-            <img id="githubLogo" alt="githubLogo" src={github}/>
-          </a>
-
-          <a href="mailto:ukmills12@gmail.com" id="gmail" target="_blank">
-            <img id="gmailLogo" alt="ukmills12@gmail.com" src={gmail}/>
-          </a>
+            <a href="mailto:ukmills12@gmail.com" id="gmail" target="_blank">
+              <img id="gmailLogo" alt="ukmills12@gmail.com" src={gmail}/>
+            </a>
           </ul>
         </section>
       </div>
