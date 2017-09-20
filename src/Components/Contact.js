@@ -42,14 +42,11 @@ export default class Contact extends Component {
           <section id="footer">
             <hr/>
             <ul id="footerNav">
-
-            <a href="https://www.linkedin.com/in/kelly-miller-b2417756/
-" id="linkedin" target="_blank">
+            <a href="https://www.linkedin.com/in/kelly-miller-b2417756/" id="linkedin" target="_blank">
               <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
             </a>
 
-            <a href="https://www.instagram.com/design_bright/
-" id="instagram" target="_blank">
+            <a href="https://www.instagram.com/design_bright/" id="instagram" target="_blank">
               <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
             </a>
 
