@@ -35,8 +35,7 @@ export default class Portfolio extends Component {
             </p>
 
             <p className="portfolioLinks" >
-            <a href="https://www.instagram.com/design_bright/
-" id="instagram" target="_blank">View my Artwork on Instagram</a>
+            <a href="https://www.instagram.com/design_bright/" id="instagram" target="_blank">View my Artwork on Instagram</a>
             </p>
 
 
