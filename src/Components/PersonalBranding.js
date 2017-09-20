@@ -54,7 +54,6 @@ export default class Portfolio extends Component {
         <img id="fonts"  alt="logos" src={Fonts} height ="300" width= "800"/>
       </p>
 
-
       <div id="contentRow1">
 
         <div id="contentText">
@@ -71,7 +70,6 @@ export default class Portfolio extends Component {
         </div>
       </div>
 
-
       <div id="contentRow1">
         <div id="contentText">
           <h3 id="contentHeader">BRAND BOARDS - PUTTING IT ALL TOGETHER</h3>
@@ -82,27 +80,19 @@ export default class Portfolio extends Component {
               <img id="brandboard2"  alt="brandBoard" src={BrandBoard2} height ="700" width= "500"/>
           </p>
 
-          <p id="brandBoardContainer">
-
-          </p>
-
-
+          <p id="brandBoardContainer"></p>
         </div>
       </div>
-
     </section>
 
     <section id="footer">
       <hr/>
       <ul id="footerNav">
-
-        <a href="https://www.linkedin.com/in/kelly-miller-b2417756/
-" id="linkedin" target="_blank">
+        <a href="https://www.linkedin.com/in/kelly-miller-b2417756/" id="linkedin" target="_blank">
           <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
         </a>
 
-        <a href="https://www.instagram.com/design_bright/
-" id="instagram" target="_blank">
+        <a href="https://www.instagram.com/design_bright/" id="instagram" target="_blank">
           <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
         </a>
 
@@ -115,7 +105,6 @@ export default class Portfolio extends Component {
         </a>
       </ul>
     </section>
-
   </div>
     );
   }
