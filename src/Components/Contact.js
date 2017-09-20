@@ -7,7 +7,6 @@ import github from "../github.PNG";
 import instagram from "../instagram.PNG";
 import gmail from "../gmail.PNG";
 
-import Resume from "../MillerKellyResume2017.pdf";
 
 
 export default class Contact extends Component {
@@ -33,7 +32,6 @@ export default class Contact extends Component {
                 <h2 id="journeyH2">Email: ukmills12@gmail.com </h2>
                 <h2 id="journeyH2">Phone: 704-614-0992</h2>
 
-              <p id="downloadResume"><a target="_blank" href={Resume}>Download My Resume</a></p>
 
               </div>
             </div>

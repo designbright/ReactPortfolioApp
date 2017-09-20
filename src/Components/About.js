@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import BaseLayout from './BaseLayout.js';
 
 import ProfilePic from "../Images/ProfilePic.JPG";
-import Resume from "../MillerKellyResume2017.pdf";
+
 
 import linkedin from "../linkedin.PNG";
 import github from "../github.PNG";
@@ -45,9 +45,7 @@ export default class About extends Component {
 
               <p>Prior to being a Developer, I was a student-athlete at the University of Kentucky and a member of the women's soccer team majoring in Kinesiology and Education. I graduated from the University of North Carolina at Chapel Hill with a degree in Exercise and Sport Science. At UNC, I was a member of the women's rugby and rowing teams.</p>
 
-              <p id="downloadResume">
-                <a target="_blank" href={Resume}>Download My Resume</a>
-              </p>
+          
 
             </div>
           </div>
@@ -58,13 +56,11 @@ export default class About extends Component {
           <hr/>
           <ul id="footerNav">
 
-            <a href="https://www.linkedin.com/in/kelly-miller-b2417756/
-" id="linkedin" target="_blank">
+            <a href="https://www.linkedin.com/in/kelly-miller-b2417756/" id="linkedin" target="_blank">
               <img id="linkedinLogo" alt="linkedinLogo" src={linkedin}/>
             </a>
 
-            <a href="https://www.instagram.com/design_bright/
-" id="instagram" target="_blank">
+            <a href="https://www.instagram.com/design_bright/" id="instagram" target="_blank">
               <img id="instagramLogo" alt="instagramLogo" src={instagram}/>
             </a>
 
