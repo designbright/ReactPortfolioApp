@@ -15,7 +15,7 @@ Update Favicon
     Contact form?
 
 ###JavaScript Calculator  
-  Finish adding Challeneges and Lessons Learned section
+  Finish adding Challenges and Lessons Learned section
   Format images
 
 
