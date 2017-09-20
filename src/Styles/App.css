@@ -5,6 +5,22 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
+.code_images{
+  display: flex;
+  justify-content: center;
+}
+
+.code_image1{
+  height: 600px;
+  width: 40%;
+  background: url('../Images/JavaScriptCalculator/HTMLcode.png');
+  background-size: contain;
+}
+
+.code_images img{
+  padding: 10px;
+}
+
 h1, h4{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
@@ -298,6 +314,7 @@ a{
   }
 
 
+
 /*START MEDIA QUERY ========*/
 @media(max-width: 900px) {
   #pictureRow {
@@ -315,6 +332,4 @@ a{
   #portfolioRow2{
     flex-direction: column;
   }
-
-
 }

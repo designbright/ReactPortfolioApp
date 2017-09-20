@@ -4,8 +4,6 @@ import BaseLayout from './BaseLayout.js';
 
 import JavaScriptCalcScreenShot from "../Images/JavaScriptCalculator/JSCalcScreenShot.png";
 import CalculatorMockup from "../Images/JavaScriptCalculator/CalculatorMockup.jpg";
-import HTMLcode from "../Images/JavaScriptCalculator/HTMLcode.png";
-import JScode from "../Images/JavaScriptCalculator/JScode.png";
 
 import linkedin from "../linkedin.PNG";
 import github from "../github.PNG";
@@ -38,13 +36,13 @@ export default class About extends Component {
 
             <p>The tools I used to complete this project were Google Chrome, Chrome Developer Tool - Inspect, Atom Text Editor, and GitHub. The languages used in the project were HTML, CSS, and JavaScript. </p>
 
-          <p>
-            <ul>
-              <li><a className="jsCalcCode" target="_blank" href="https://github.com/designbright/JavaScriptCalculator.git">View the Code on GitHub</a></li>
-              <li><a className="jsCalcCode" target="_blank" href="  https://designbright.github.io/JavaScriptCalculator/">View the Live Site</a></li>
-            </ul>
-          </p>
+              <ul className="link_list">
+                <li><a className="jsCalcCode" target="_blank" href="https://github.com/designbright/JavaScriptCalculator.git">View the Code on GitHub</a></li>
+                <li><a className="jsCalcCode" target="_blank" href="  https://designbright.github.io/JavaScriptCalculator/">View the Live Site</a></li>
+              </ul>
           </div>
+          <br/>
+        </section>
 
           <div id="contentRow1">
 
@@ -63,10 +61,14 @@ export default class About extends Component {
               <p>Step 3: Code the JavaScript</p>
             </div>
           </div>
-        </section>
 
-        <img id="htmlCodeSnip" alt="HTML Code Snippet" src={HTMLcode} height="450" width="450"/>
-        <img id="JSCodeSnip" alt="profilePic" src={JScode} height="450" width="450"/>
+        <div className="code_images">
+        <div className="code_image1">
+          </div>
+        <div className="code_image1">
+            </div>
+          </div>
+
 
         <section id="footer">
           <hr/>
